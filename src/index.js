@@ -9,9 +9,9 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/trade-card/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="campaign/:id" element={<Campaign />} />
+          <Route path="/trade-card/campaign/:id" element={<Campaign />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

@@ -8,7 +8,7 @@ const Card = (props) => {
   return (
     <div>
       <div>
-        <Link to={`/campaign/${campaign.id}`}>
+        <Link to={`/trade-card/campaign/${campaign.id}`}>
           {campaign.id} - {campaign.name}
         </Link>
       </div>
