@@ -9,6 +9,7 @@ const Card = (props) => {
             <div>Image ID: {tradeCard.id}</div>
             <div>Image Link: <a href={tradeCard.frontimage_thumbnail}>{tradeCard.frontimage_thumbnail}</a></div>
             <div>Video Link: <a href={tradeCard.frontimage}>{tradeCard.frontimage}</a></div>
+            <div>Star/Rarity: {tradeCard.rarity}</div>
             <img src={tradeCard.frontimage_thumbnail} />
             <hr />
         </div>
