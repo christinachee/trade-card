@@ -12,6 +12,7 @@ const Card = (props) => {
           {campaign.id} - {campaign.name}
         </Link>
       </div>
+      <div><img src={campaign.carousel_image} /></div>
       <hr />
     </div>
   );
